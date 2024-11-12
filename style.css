@@ -3,8 +3,33 @@
     font-size: xx-large;
 }
 #titol_principal{
+    width: 100%;
+    text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: blue;
+    font-size: 40px;
+}
+.acts1{
+    margin: 25px;
+    float: left;
+    width: 20%;
+    height: 350px;
+    border-right: 3px solid red;
+    border-radius: 2px ;
+}
+.acts2{
+    margin: 25px;
+    float: left;
+    width: 20%;
+    height: 350px;
+    border-right: 3px solid red;
+    border-radius: 2px ;     
+}
+hr{
+    color: red;
+}
+#clear{
+    clear: both;
 }
 ul li::marker{
     color: grey;
@@ -15,10 +40,7 @@ a{
     background-color: white;
     border-radius: 10px;
 }
-
-#div_formatos{
-
-}
 .tituls_act{
-    color: red;
+   color: royalblue;
+   text-decoration: underline orangered;
 }
