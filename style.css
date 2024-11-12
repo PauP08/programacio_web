@@ -1,0 +1,16 @@
+*{
+    background-color: black;
+    list-style:;
+}
+ul li::before{
+    counter-reset: "·";
+    color: red;
+    font-size: xx-large;
+    margin-right: 10px;
+}
+#div_formatos{
+
+}
+.tituls_act{
+    color: red;
+}
