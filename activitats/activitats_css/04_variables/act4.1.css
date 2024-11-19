@@ -1,0 +1,17 @@
+:root{
+    --color-amarillo: #FFD300;
+    --color-verde: green;
+    --color-rojo: red;
+    --font-de-p: 'Comic Sans MS';
+}
+
+.vinculos{
+    color: var(--color-verde);
+    text-decoration: dashed underline;
+}
+#title{
+    color: var(--color-rojo);
+}
+p{
+    font-family: var(--font-de-p);
+}

@@ -1,0 +1,10 @@
+:root{
+    --anchura: 1000px;
+    --altura: 500px;
+}
+
+div{
+    width: var(--anchura);
+    height: var(--altura);
+    background-color: red;
+}
