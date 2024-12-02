@@ -2,3 +2,11 @@
     width: 100%;
     text-align: center;
 }
+
+#name{
+     width: 99%;
+}
+
+#comment{
+    width: 99%;
+}
