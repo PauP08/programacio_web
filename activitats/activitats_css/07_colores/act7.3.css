@@ -1,0 +1,21 @@
+#title{
+    color: red;
+    font-size: xx-large;
+}
+.red_back{ 
+    background-color: red;
+    color: white;
+}
+.color_red{
+    color: red;
+}
+.red_subgray{
+    color: red;
+    text-decoration: underline gray;
+}
+div{
+    background-color: gainsboro;
+}
+#color_gray{
+    color: gray;
+}
