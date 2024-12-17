@@ -1,0 +1,19 @@
+#title{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 25px;
+    letter-spacing: 1   0px;
+}
+#autor{
+        font-size: medium;
+        font-weight: 500;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        word-spacing: 150px ;
+}
+#subtitle{
+    font-size: x-large;
+    font-weight: 700;
+}
+#text{
+    text-justify: inter-cluster;
+}

@@ -1,0 +1,22 @@
+#title{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 25px;
+}
+#title:hover{
+    font-style: italic;
+    color: blue;
+}
+#autor{
+        font-size: medium;
+        font-weight: 500;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#subtitle{
+    font-size: x-large;
+    font-weight: 100        ;
+}
+#subtitle:hover{
+    color: red;
+    font-weight: 900;
+}
