@@ -1,0 +1,23 @@
+*{
+    background-color: black;
+    color:lawngreen;
+    font-size: 25px;   
+}
+.tituls_act{
+    color: red;
+}
+.acts1{
+    float: left;
+    width: 300px;
+    height: 250px;
+    border-right: red dashed ;
+}
+.acts2{
+    float: left;
+    width: 300px;
+    height: 250px;
+    border-right: red dashed ;
+}
+#clear{
+    clear: both;
+}
