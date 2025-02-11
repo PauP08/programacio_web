@@ -14,10 +14,60 @@
     background-color: white;
     border-radius: 25px; 
     display: flex; 
-    justify-content: left;
 }
 .msg_1{
-    background-color: rgb(252, 3, 3);
+    /* background-color: rgb(252, 3, 3); */
     width: 100%;
     height: 10%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.msg_abeja{
+    width: 35%;
+    height: 50%;
+    background-color: greenyellow;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: left 10px;
+    align-items: center;
+}
+#img_abeja{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: darkblue dashed;
+    width: 10%;
+    height: 60%;
+    object-fit: cover; 
+}
+.msg_2{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.msg_leon{
+    width: 35%;
+    height: 50%;
+    background-color: greenyellow;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: left 10px;
+    align-items: center;
+}
+#img_leon{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: darkblue dashed;
+    width: 10%;
+    height: 60%;
+    object-fit: cover; 
+}
+p{
+    margin: 10px;
 }
