@@ -13,7 +13,8 @@
     width: 455px;
     background-color: white;
     border-radius: 25px; 
-    display: flex; 
+    display: flex;
+    flex-direction: column; 
 }
 .msg_1{
     /* background-color: rgb(252, 3, 3); */
@@ -70,4 +71,7 @@
 }
 p{
     margin: 10px;
+}
+#clear{
+    clear: both;
 }
