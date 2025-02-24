@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    margin-left: 5px;
+    width: 50%;
+    margin-top: 5px;
+    background-color: gray;
+    border-radius: 10px;
+    display: flex;
+    height: 55px;
+    align-items: center ;
+}
+.btn{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.btn:hover{
+    color: wheat;
+    background-color: black;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botón Bonito</title>
+    <style>
+        /* Estilo base para el botón */
+        .boton-bonito {
+            padding: 15px 30px;
+            font-size: 18px;
+            color: white;
+            background: linear-gradient(45deg, #4CAF50, #45a049); /* Gradiente verde */
+            border: none;
+            border-radius: 30px; /* Bordes redondeados */
+            cursor: pointer;
+            transition: all 0.3s ease; /* Suaviza el cambio de estilo */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+        }
+
+        /* Efecto al pasar el cursor (hover) */
+        .boton-bonito:hover {
+            background: linear-gradient(45deg, #45a049, #4CAF50); /* Invertir gradiente en hover */
+            transform: translateY(-4px); /* Mover el botón hacia arriba */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Aumentar sombra */
+        }
+    </style>
+</head>
+<body>
+
+    <button class="boton-bonito">¡Haz clic aquí!</button>
+
+</body>
+</html>
