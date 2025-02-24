@@ -1,0 +1,13 @@
+#paragraf1{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aquamarine;
+    margin-bottom: 15px;
+}
+span{
+    text-decoration: underline;
+}
+div{
+    position: absolute;
+    top: 150px;
+}
