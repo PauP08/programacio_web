@@ -2,21 +2,71 @@
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+body{
+    background-color: gainsboro;
+}
 header{
     margin-left: 5px;
-    width: 50%;
+    width: 99.5%;
     margin-top: 5px;
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.471);
     border-radius: 10px;
     display: flex;
-    height: 55px;
-    align-items: center ;
+    height: 50px;
+    align-items: center;
 }
 .btn{
+    font-size: large;
+    border: 0px;
+    border-radius: 15px;
     margin-left: 100px;
     margin-right: 100px;
+    box-shadow: inset 0 0 0 0 black;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
 }
 .btn:hover{
-    color: wheat;
+    color: white;
     background-color: black;
+    box-shadow: inset 400px 50px 0 0 gray;
+    
+}
+#s1{
+    background-color: red;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    justify-content: center;
+    align-items: center;
+}
+#s1_ttl{
+    color: white;
+    font-size: 50px;
+}
+#s2{
+    position: absolute;
+    top: 17%;
+    left: 5%;
+
+}
+#s2_p{
+    font-size: 50px;
+}
+#programador{
+    color: blue;
+    text-decoration: underline black;
+}
+#s3{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 40%;
+}
+#s3_ttl{
+    font-size:  50px;
+}
+#s3_p{
+    text-align:justify;
+
 }
