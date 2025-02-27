@@ -4,17 +4,20 @@
 }
 body{
     background-color: gray;
+    min-height: 100vh;
 }
 header{
+    margin-bottom: 100px;
     color: white;
     margin-left: 5px;
     width: 99.5%;
-    margin-top: 5px;
+    margin:5px ;
     background-color: black;
     border-radius: 10px;
     display: flex;
-    height: 50px;
+    height: 40px;
     align-items: center;
+    
 }
 .btn{
     font-size: large;
@@ -99,31 +102,132 @@ header{
     left: 10px;
 }
 #formato{
-    justify-items: center;
     color: white;
     position: absolute;
     top: 15%;
     left: 20%;
-    height: 300px;
-    width: 200px;
+    height: 375px;
+    width: 220px;
     background-color: black;
 }
-
-
-
-#hipervinculos{
+#ttl_formato{
+    margin-left: 20%;
+}
+.center{
+    margin-left: 25%;
+}
+hr{
+    color: white;
+    width: 100px;
+}
+a{
+    text-align: justify;
+    font-size: xx-large ;
+}
+#hiperviculos{
+    color: white;
     position: absolute;
     top: 15%;
-    left: 40%;
-    height: 300px;
-    width: 200px;
-    background-color: black;
+    left: 35%;
+    height: 375px;
+    width: 220px;
+    background-color: black; 
+}
+#ttl_hipervinculos{
+    margin-left: 15px;
 }
 #listas{
+    color: white;
     position: absolute;
     top: 15%;
-    left: 60%;
-    height: 300px;
-    width: 200px;
+    left: 50%;
+    height: 375px;
+    width: 220px;
+    background-color: black; 
+}
+#ttl_listas{
+    margin-left: 65px;
+}
+#imagenes{
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+    height: 375px;
+    width: 220px;
+    background-color: black; 
+}
+#ttl_imagenes{
+    margin-left: 35px;
+}
+#tablas{
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    height: 375px;
+    width: 220px;
+    background-color: black;
+}
+#ttl_tablas{
+    margin-left: 60px;
+}
+#formularios{
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    height: 375px;
+    width: 220px;
+    background-color: black;
+}
+#ttl_formularios{
+    margin-left: 20px;
+}
+#multimedia{
+    color: white;
+    position: absolute;
+    top: 95%;
+    left: 20%;
+    height: 375px;
+    width: 220px;
+    background-color: black;
+}
+#ttl_multimedia{
+    margin-left: 20px;
+}
+#contenido{
+    color: white;
+    position: absolute;
+    top: 95%;
+    left: 35%;
+    height: 375px;
+    width: 220px;
+    background-color: black;
+}
+#ttl_contenido{
+    margin-left: 30px;
+}
+#intercambios{
+    color: white;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    height: 375px;
+    width: 220px;
+    background-color: black;
+}
+#ttl_intercambios{
+    margin-left: 25px;
+}
+footer{
+    margin-top: 5px;
+    align-items: center;
+    justify-items: right;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    color: white;
     background-color: black;
 }
