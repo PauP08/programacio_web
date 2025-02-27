@@ -3,13 +3,14 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    background-color: gainsboro;
+    background-color: gray;
 }
 header{
+    color: white;
     margin-left: 5px;
     width: 99.5%;
     margin-top: 5px;
-    background-color: rgba(128, 128, 128, 0.471);
+    background-color: black;
     border-radius: 10px;
     display: flex;
     height: 50px;
@@ -69,4 +70,26 @@ header{
 #s3_p{
     text-align:justify;
 
+}
+#s4{
+    display: flex;
+    position: absolute;
+    top:  40%;
+    left: 5%;
+    
+}
+#s4_btn{
+    margin-left: 10px;
+    border-radius: 15px;
+    border: 0;
+}
+#s5{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+#s5_img{
+    border: 100px black;
+    border-radius: 100%;
+    width: 200px;
 }
