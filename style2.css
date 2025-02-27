@@ -4,7 +4,7 @@
 }
 body{
     background-color: gray;
-    min-height: 100vh;
+    min-height: 100%;
 }
 header{
     margin-bottom: 100px;
@@ -104,13 +104,13 @@ header{
 #formato{
     color: white;
     position: absolute;
-    top: 15%;
-    left: 20%;
+    top: 75px;
+    left: 250px;
     height: 375px;
     width: 220px;
     background-color: black;
 }
-#ttl_formato{
+ #ttl_formato{
     margin-left: 20%;
 }
 .center{
@@ -127,8 +127,8 @@ a{
 #hiperviculos{
     color: white;
     position: absolute;
-    top: 15%;
-    left: 35%;
+    top: 75px;
+    left: 500px;
     height: 375px;
     width: 220px;
     background-color: black; 
@@ -139,8 +139,8 @@ a{
 #listas{
     color: white;
     position: absolute;
-    top: 15%;
-    left: 50%;
+    top: 75px;
+    left: 750px;
     height: 375px;
     width: 220px;
     background-color: black; 
@@ -151,8 +151,8 @@ a{
 #imagenes{
     color: white;
     position: absolute;
-    top: 55%;
-    left: 20%;
+    top: 475px;
+    left: 250px;
     height: 375px;
     width: 220px;
     background-color: black; 
@@ -163,8 +163,8 @@ a{
 #tablas{
     color: white;
     position: absolute;
-    top: 55%;
-    left: 35%;
+    top: 475px;
+    left: 500px;
     height: 375px;
     width: 220px;
     background-color: black;
@@ -175,8 +175,8 @@ a{
 #formularios{
     color: white;
     position: absolute;
-    top: 55%;
-    left: 50%;
+    top: 475px;
+    left: 750px;
     height: 375px;
     width: 220px;
     background-color: black;
@@ -187,8 +187,8 @@ a{
 #multimedia{
     color: white;
     position: absolute;
-    top: 95%;
-    left: 20%;
+    top: 875px;
+    left: 250px;
     height: 375px;
     width: 220px;
     background-color: black;
@@ -199,8 +199,8 @@ a{
 #contenido{
     color: white;
     position: absolute;
-    top: 95%;
-    left: 35%;
+    top: 875px;
+    left: 500px;
     height: 375px;
     width: 220px;
     background-color: black;
@@ -211,8 +211,8 @@ a{
 #intercambios{
     color: white;
     position: absolute;
-    top: 95%;
-    left: 50%;
+    top: 875px;
+    left: 750px;
     height: 375px;
     width: 220px;
     background-color: black;
@@ -220,7 +220,7 @@ a{
 #ttl_intercambios{
     margin-left: 25px;
 }
-footer{
+#index_footer{
     margin-top: 5px;
     align-items: center;
     justify-items: right;
@@ -230,4 +230,22 @@ footer{
     width: 100%;
     color: white;
     background-color: black;
+}
+#html_footer{
+    color: white;
+    background-color: black;
+    height: 50px;
+    position: absolute;
+    width: 100%;
+    bottom: -700px;
+    justify-items: right;
+}
+#activitats_html{
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+#img_css{
+    width: 300px;
+    position: absolute;
+    left: -50px;
 }
