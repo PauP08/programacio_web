@@ -93,3 +93,37 @@ header{
     border-radius: 100%;
     width: 200px;
 }
+#img_html{
+    position: absolute;
+    top: 7%;
+    left: 10px;
+}
+#formato{
+    justify-items: center;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    height: 300px;
+    width: 200px;
+    background-color: black;
+}
+
+
+
+#hipervinculos{
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    height: 300px;
+    width: 200px;
+    background-color: black;
+}
+#listas{
+    position: absolute;
+    top: 15%;
+    left: 60%;
+    height: 300px;
+    width: 200px;
+    background-color: black;
+}
