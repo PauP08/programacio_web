@@ -267,3 +267,21 @@ a{
     width: 220px;
     background-color: black;
 }
+#listas_css{
+    color: white;
+    position: absolute;
+    top: 1275px;
+    left: 500px;
+    height: 375px;
+    width: 220px;
+    background-color: black;
+}
+#filters{
+    color: white;
+    position: absolute;
+    top: 1275px;
+    left: 750px;
+    height: 375px;
+    width: 220px;
+    background-color: black;
+}
