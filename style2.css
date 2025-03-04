@@ -237,7 +237,7 @@ a{
     height: 50px;
     position: absolute;
     width: 100%;
-    bottom: -700px;
+    bottom: -650px;
     justify-items: right;
 }
 #activitats_html{
@@ -248,4 +248,22 @@ a{
     width: 300px;
     position: absolute;
     left: -50px;
+}
+#footer_css{
+    color: white;
+    background-color: black;
+    height: 50px;
+    position: absolute;
+    width: 100%;
+    bottom: -750px;
+    justify-items: right;
+}
+#border{
+    color: white;
+    position: absolute;
+    top: 1275px;
+    left: 250px;
+    height: 375px;
+    width: 220px;
+    background-color: black;
 }

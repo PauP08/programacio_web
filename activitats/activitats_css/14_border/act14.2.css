@@ -1,0 +1,9 @@
+#img{
+    position: absolute;
+    top: 50px;
+    width: 500px;
+    border-top: 5px solid orange;
+    border-right: 5px dashed orange;
+    border-left: 5px dashed orange;
+    border-bottom: 5px solid orange;
+}
