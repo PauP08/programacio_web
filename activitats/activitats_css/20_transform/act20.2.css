@@ -1,0 +1,19 @@
+#container{
+    margin-top: 0;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 250px;
+    height: 250px;
+    border: 5px solid red;
+}
+#container:hover{
+    transform: scale(3);
+}
+#title{
+    background-color: red;
+
+}
+#txt{
+
+}

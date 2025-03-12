@@ -255,7 +255,7 @@ a{
     height: 50px;
     position: absolute;
     width: 100%;
-    bottom: -750px;
+    bottom: -1500px;
     justify-items: right;
 }
 #border{
@@ -281,6 +281,15 @@ a{
     position: absolute;
     top: 1275px;
     left: 750px;
+    height: 375px;
+    width: 220px;
+    background-color: black;
+}
+#transform{
+    color: white;
+    position: absolute;
+    top: 1675px;
+    left: 250px;
     height: 375px;
     width: 220px;
     background-color: black;
