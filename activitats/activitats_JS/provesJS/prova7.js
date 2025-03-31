@@ -24,7 +24,7 @@ rl.question("Introduce un número: ", (input) => {
             n = (n - digito) / 10; // Quitar el último dígito
         }
         
-        let resultado = "";
+        let resultado = ""
         let i = 0;
         while (i < digitos.length) {
             resultado += digitos[i] + " ";
