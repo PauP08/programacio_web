@@ -17,6 +17,8 @@ if (estaCasado){
 /**********************
  * Sentencia condicionales
  */
+
+/*
 var nombre = "Pepet";
 var nota = 5 ;
 
@@ -31,7 +33,7 @@ if(nota<5){
 }else if((nota >= 9)){
   cosnole.log("Exel·lent");
 };
-
+*/
 /*
 var nombre = 'Pablo';
 var edad = 8;
@@ -56,32 +58,62 @@ if (edad < 12){
  * Operador ternario
  */
 
- /*var nombre = 'Pablo';
- var edad = 16;
+/*
+ var nombre = 'Pablo';
+ var edad = 23;
 
  edad >= 18 ? console.log(nombre + ' es mayor de edad') : console.log(nombre + ' es un adolescente');
+ */
 
- /**********************
-  * Sentencia Switch
-  */
 
-  /*var mes = 8;
-  switch(mes){
-      case 1:
-        console.log('Enero');
-        break;
-      case 2:
-        console.log('Febrero');
-        break;
-      case 3:
-        console.log('Marzo');
-        break;
-      case 4:
-        console.log('Abril');
-        break;
-      default:
-      console.log('Mes no considerado');  
+/**********************
+ * Sentencia Switch
+ */
+
+/*var mes = 8;
+switch(mes){
+    case 1:
+      console.log('Enero');
+      break;
+    case 2:
+      console.log('Febrero');
+      break;
+    case 3:
+      console.log('Marzo');
+      break;
+    case 4:
+      console.log('Abril');
+      break;
+    default:
+    console.log('Mes no considerado');  
+}*/
+/*
+var nota = 8;
+
+switch(nota){
+  case 1:
+  case 2:
+  case 4:
+    console.log("SUSPES!!!")
+    break
+  case 5:
+    console.log("APROBAT!!!")
+    break
+  case 6:
+    console.log("BÉ!!!")
+    break
+  case 7:
+  case 8:
+    console.log("NOTABLE")
+    break
+  case 9:
+  case 10:
+    console.log("ECEL·LENT")
+    break
+  default:
+    console.log("NOTA ERRONIA")
 }
+*/
 
 /*********************
  * Sentencias repetitivas - Bucles
@@ -90,10 +122,11 @@ if (edad < 12){
  * Sentencia Do..While
  */
 
- /*Sentencia For
-for (var i = 10;i >= 1;i--){
+//Sentencia For
+
+for (var i = 10; i >= 1; i--) {
   console.log(i);
-}*/
+}
 
 /*Sentencia While
 var i = 0;
@@ -113,70 +146,70 @@ do{
  * Valores verdaderos y falsos
  */
 
- //Valores falsos: undefined, null, 0, ''
- //Valores verdaderos: NOT valores falses
+//Valores falsos: undefined, null, 0, ''
+//Valores verdaderos: NOT valores falses
 
- /*var edad;
- edad = 10;
+/*var edad;
+edad = 10;
 
- if(edad){
-   console.log('Variable esta definida');
- }else{
-   console.log('Variable no definida');
- }
-
- //operadores de igualda
-if(edad === '10'){
-  console.log('Variable con coersión');
+if(edad){
+  console.log('Variable esta definida');
 }else{
-  console.log('Variable sin coersión');
+  console.log('Variable no definida');
+}
+
+//operadores de igualda
+if(edad === '10'){
+ console.log('Variable con coersión');
+}else{
+ console.log('Variable sin coersión');
 }*/
 
 /****************
  * Ejercicio de sentencias
  */
 
- /********************
-  * Tienes dos alumnos, Pablo y Maria.
-  * Pablo tiene las siguientes notas en el curso de JavaScript: 14, 19, 16.
-  * María tiene las siguientes notas en el curso de mismo curso: 12, 18, 10.
-  * 
-  * Calcular el promedio de cada alumno, además indicar quién tiene el promedio
-  * superior, e indicar si el alumno esta aprobado, para ello su promedio 
-  * debe ser superior a 13.
-  */
+/********************
+ * Tienes dos alumnos, Pablo y Maria.
+ * Pablo tiene las siguientes notas en el curso de JavaScript: 14, 19, 16.
+ * María tiene las siguientes notas en el curso de mismo curso: 12, 18, 10.
+ * 
+ * Calcular el promedio de cada alumno, además indicar quién tiene el promedio
+ * superior, e indicar si el alumno esta aprobado, para ello su promedio 
+ * debe ser superior a 13.
+ */
 
 
- /*
-  var promedioPablo = (14 + 19 + 16)/3;
-  var promedioMaria = (12 + 16 + 10)/3;
+/*
+ var promedioPablo = (14 + 19 + 16)/3;
+ var promedioMaria = (12 + 16 + 10)/3;
 
-  //Promedio superior
-  if( promedioPablo > promedioMaria ){
-    console.log('Pablo tiene el promedio superior.');
-  }else if(promedioMaria > promedioPablo){
-    console.log('María tiene el promedio superior.');
-  }else{
-    console.log('Pablo y María tienen promedios iguales.');
-  }
+ //Promedio superior
+ if( promedioPablo > promedioMaria ){
+   console.log('Pablo tiene el promedio superior.');
+ }else if(promedioMaria > promedioPablo){
+   console.log('María tiene el promedio superior.');
+ }else{
+   console.log('Pablo y María tienen promedios iguales.');
+ }
 
-  //mostrar si estan aprobados
-  for(var i=1;i <= 2;i++){
-    if(i === 1){
-      console.log('Promedio de pablo:' + promedioPablo);
-      if(promedioPablo > 13){
-        console.log('Pablo esta aprobado.');
-      }else{
-        console.log('Pablo esta desaprobado.');
-      }
-    }else{
-      console.log('Promedio de María:' + promedioMaria);
-      if(promedioMaria > 13){
-        console.log('María esta aprobada.');
-      }else{
-        console.log('Maria esta desaprobada.');
-      }
-    }
-  }
+ //mostrar si estan aprobados
+ for(var i=1;i <= 2;i++){
+   if(i === 1){
+     console.log('Promedio de pablo:' + promedioPablo);
+     if(promedioPablo > 13){
+       console.log('Pablo esta aprobado.');
+     }else{
+       console.log('Pablo esta desaprobado.');
+     }
+   }else{
+     console.log('Promedio de María:' + promedioMaria);
+     if(promedioMaria > 13){
+       console.log('María esta aprobada.');
+     }else{
+       console.log('Maria esta desaprobada.');
+     }
+   }
+ }
 */
 

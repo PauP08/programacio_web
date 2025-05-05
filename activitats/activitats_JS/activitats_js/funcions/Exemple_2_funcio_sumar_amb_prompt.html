@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suma de dos nombres (amb prompt)</title>
+</head>
+<body>
+
+    <h1>Suma de dos nombres</h1>
+    <p>Introdueix dos nombres per sumar-los.</p>
+    <div id="resultat"></div>
+
+    <script>
+        function sumarNombres(num1, num2) {
+            return parseFloat(num1) + parseFloat(num2);
+        }
+
+        let primerNombre = prompt("Si us plau, introdueix el primer nombre:");
+        let segonNombre = prompt("Si us plau, introdueix el segon nombre:");
+
+        if (primerNombre !== null && segonNombre !== null && !isNaN(parseFloat(primerNombre)) && !isNaN(parseFloat(segonNombre))) {
+            let suma = sumarNombres(primerNombre, segonNombre);
+            document.getElementById("resultat").textContent = "La suma és: " + suma;
+        } else {
+            document.getElementById("resultat").textContent = "Si us plau, introdueix nombres vàlids.";
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suma de dos nombres (amb botó)</title>
+</head>
+<body>
+
+    <h1>Suma de dos nombres</h1>
+    <p>Introdueix dos nombres per sumar-los:</p>
+
+    <label for="nombre1">Primer nombre:</label>
+    <input type="text" id="nombre1"><br><br>
+
+    <label for="nombre2">Segon nombre:</label>
+    <input type="text" id="nombre2"><br><br>
+
+    <button onclick="calcularSuma()">Calcula la suma</button>
+
+    <div id="resultat"></div>
+
+    <script>
+        function sumarNombres(num1, num2) {
+            return parseFloat(num1) + parseFloat(num2);
+        }
+
+        function calcularSuma() {
+            let primerNombreInput = document.getElementById("nombre1").value;
+            let segonNombreInput = document.getElementById("nombre2").value;
+
+            if (!isNaN(parseFloat(primerNombreInput)) && !isNaN(parseFloat(segonNombreInput))) {
+                let suma = sumarNombres(primerNombreInput, segonNombreInput);
+                document.getElementById("resultat").textContent = "La suma és: " + suma;
+            } else {
+                document.getElementById("resultat").textContent = "Si us plau, introdueix nombres vàlids.";
+            }
+        }
+    </script>
+
+</body>
+</html>
