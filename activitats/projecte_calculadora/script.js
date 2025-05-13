@@ -2,8 +2,11 @@ const pantalla = document.getElementById('pantalla');
 const btnNumero = document.querySelectorAll('.numero');
 const btnNetejar = document.getElementById('clear')
 const btnOperadors = document.querySelectorAll('.operador')
+const btnIgual = document.getElementById('igual')
 
-let valorAnteriror = '';
+
+let valorAnterior = '';
+let operadorSeleccionat = '';
 let valorActual = '';
 
 btnNumero.forEach(boto => {
@@ -16,19 +19,23 @@ btnNumero.forEach(boto => {
     })
 });
 
-btnNetejar.addEventListener('click', function(){
-    if(pantalla.textContent === pantalla.textContent){
-        pantalla.textContent = '0'
+btnOperadors.forEach(boto => {
+    boto.addEventListener('click', function(){
+        valorAnterior = pantalla.textContent
+        operadorSeleccionat = boto.textContent
+        pantalla.textContent = "0"
+    })
+});
+
+btnIgual.addEventListener('click',  () => {
+    const valorActual = pantalla.textContent
+    let resultat = 0;
+    if(operadorSeleccionat === '+'){
+        resultat = parseFloat(valorAnterior) + parseFloat(valorActual)
     }
+    pantalla.textContent = resultat
 })
 
-btnOperadors.forEach(operador, function(){
-    valorAnteriror = pantalla.textContent
-    
-
-    if(btnOperadors.textContent = '+'){
-    }
-})
 
 
 
