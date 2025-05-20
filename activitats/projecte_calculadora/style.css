@@ -15,12 +15,13 @@ body{
 }  
 .button{
     margin: 60px;
-    font-size: 100px;
+    font-size: 150px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;;
 }
 button{
+    font-size: x-large;
     width: 100px;
     height: 100px;
     border: 0;
